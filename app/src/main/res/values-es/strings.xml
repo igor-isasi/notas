@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Notas</string>
+    <string name="create_collection">Crear colección</string>
+    <string name="language_selection">Elige el idioma</string>
+    <string name="basque">Euskera</string>
+    <string name="spanish">Castellano</string>
+    <string name="english">Inglés</string>
+    <string name="add_collection">Añadir colección</string>
+    <string name="empty_title_collection">El título de la colección no puede estar vacío</string>
+    <string name="delete_collection">Eliminar colección</string>
+    <string name="add_note">Añadir nota</string>
+    <string name="collection_exists">Ya existe una colección con ese nombre</string>
+    <string name="note_exists">Ya existe una nota con ese nombre</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="sign_up">Regístrate</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="user_exists">Ya existe un usuario con el nombre introducido</string>
+    <string name="empty_login">Por favor, rellena el usuario y la contraseña</string>
+    <string name="succ_sign_up">Se ha completado el registro correctamente</string>
+    <string name="user_not_found">El usuario o contraseña introducidos no son correctos</string>
+    <string name="go_back">Atrás</string>
+    <string name="sign_out">Cerrar sesión</string>
+    <string name="sign_out_msg">¿Quieres cerrar sesión?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="dark_mode">Modo oscuro</string>
+    <string name="no_collections">No hay ninguna colección creada</string>
+    <string name="first_collection">Crea tu primera colección</string>
+    <string name="show_users">Mostrar usuarios</string>
+    <string name="users_list">Lista de usuarios</string>
+    <string name="empty_title_note">La nota no puede estar vacía</string>
+</resources>

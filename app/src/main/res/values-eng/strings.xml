@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="create_collection">Create collection</string>
+    <string name="language_selection">Choose desired language</string>
+    <string name="basque">Basque</string>
+    <string name="spanish">Spanish</string>
+    <string name="english">English</string>
+    <string name="add_collection">Add collection</string>
+    <string name="empty_title_collection">The title of the collection can`t be empty</string>
+    <string name="collection_exists">There is already a collection with the same name</string>
+    <string name="delete_collection">Delete collection</string>
+    <string name="add_note">Add note</string>
+    <string name="note_exists">There is already a note with the same name</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="user_exists">There is already a user with the same name</string>
+    <string name="empty_login">Please, introduce the username and password</string>
+    <string name="succ_sign_up">The sign up has been completed successfully</string>
+    <string name="user_not_found">Introduced username or password are not correct</string>
+    <string name="go_back">Go back</string>
+    <string name="sign_out">Sign out</string>
+    <string name="sign_out_msg">Do you want to log out?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="no_collections">There is not any collection</string>
+    <string name="first_collection">Create your first collection</string>
+    <string name="show_users">Show users</string>
+    <string name="users_list">Users list</string>
+    <string name="empty_title_note">The note can not be empty</string>
+</resources>

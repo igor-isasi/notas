@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Notak</string>
+    <string name="create_collection">Bilduma sortu</string>
+    <string name="language_selection">Aukeratu nahi duzun hizkuntza</string>
+    <string name="basque">Euskara</string>
+    <string name="spanish">Gaztelera</string>
+    <string name="english">Ingelesa</string>
+    <string name="add_collection">Bilduma gehitu</string>
+    <string name="empty_title_collection">Bildumaren izena ezin da hutsik egon</string>
+    <string name="delete_collection">Bilduma ezabatu</string>
+    <string name="add_note">Nota gehitu</string>
+    <string name="collection_exists">Izen hori duen bilduma existitzen da jada</string>
+    <string name="note_exists">Izen hori duen nota existitzen da jada</string>
+    <string name="login">Saioa hasi</string>
+    <string name="sign_up">Erregistratu</string>
+    <string name="username">Erabiltzaile izena</string>
+    <string name="password">Pasahitza</string>
+    <string name="user_exists">Izen hori duen erabiltzailea existitzen da jada</string>
+    <string name="empty_login">Mesedez, sartu erabiltzaile izena eta pasahitza</string>
+    <string name="succ_sign_up">Erregistroa era egokian burutu da</string>
+    <string name="user_not_found">Sartutako erabiltzaile izena edota pasahitza ez dira zuzenak</string>
+    <string name="go_back">Atzera joan</string>
+    <string name="sign_out">Saioa itxi</string>
+    <string name="sign_out_msg">Saioa itxi nahi duzu?</string>
+    <string name="yes">Bai</string>
+    <string name="no">Ez</string>
+    <string name="dark_mode">Modu iluna</string>
+    <string name="no_collections">Ez dago bildumarik</string>
+    <string name="first_collection">Zure lehen bilduma sortu</string>
+    <string name="show_users">Erabiltzaileak ikusi</string>
+    <string name="users_list">Erabiltzaileen lista</string>
+    <string name="empty_title_note">Nota ezin da hutsik egon</string>
+</resources>

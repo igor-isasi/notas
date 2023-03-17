@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Switch
+        android:id="@+id/switchModoOscuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/dark_mode"
+        app:layout_constraintEnd_toStartOf="@+id/botonIdioma"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listaCole"
+        android:layout_width="248dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonIdioma" />
+
+    <Button
+        android:id="@+id/botonCrearCole"
+        style="@style/Botones"
+        android:layout_width="152dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="23dp"
+        android:text="@string/create_collection"
+        app:layout_constraintEnd_toStartOf="@+id/botonUsuarios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listaCole" />
+
+    <ImageButton
+        android:id="@+id/botonIdioma"
+        android:layout_width="46dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/language"
+        android:maxWidth="60dp"
+        android:maxHeight="60dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/listaCole"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textUser"
+        android:layout_width="92dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/listaCole"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/botonPerfil"
+        android:layout_width="40dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/perfil"
+        android:maxWidth="60dp"
+        android:maxHeight="60dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/listaCole"
+        app:layout_constraintEnd_toStartOf="@+id/textUser" />
+
+    <Button
+        android:id="@+id/botonUsuarios"
+        style="@style/Botones"
+        android:layout_width="152dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="208dp"
+        android:text="@string/show_users"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/botonCrearCole"
+        app:layout_constraintTop_toBottomOf="@+id/listaCole" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
